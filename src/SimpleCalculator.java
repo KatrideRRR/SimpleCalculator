@@ -26,7 +26,7 @@ public class SimpleCalculator {
     JPanel p1;
     JPanel p2;
 
-    SimpleCalculator() {
+    public SimpleCalculator() {
         windowContent = new JPanel();
         BorderLayout bl = new BorderLayout();
         windowContent.setLayout(bl);
