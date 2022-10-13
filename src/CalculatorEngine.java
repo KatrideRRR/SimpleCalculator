@@ -48,7 +48,7 @@ public class CalculatorEngine implements ActionListener {
             selectedAction = '*';
             currentResult = displayValue;
             calculator.displayField.setText("");
-        } else if (clickedButton == calculator.buttonEqual) {
+        } else if (clickedButton == calculator.equal) {
             if (selectedAction == '+') {
                 currentResult += displayValue;
                 calculator.displayField.setText("" + df.format(currentResult));
